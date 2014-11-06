@@ -11,6 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20141105204735) do
+
+  create_table "books", force: true do |t|
+    t.string   "title"
+    t.string   "author"
+    t.integer  "year"
+    t.boolean  "available",  default: true
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "checkouts", force: true do |t|
+    t.integer  "patron_id"
+    t.string   "book_id"
+    t.string   "integer"
+    t.datetime "checkout_at"
+    t.datetime "checkin_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "patrons", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

@@ -1,0 +1,11 @@
+one:
+  title: MyString
+  author: MyString
+  year: 1
+  available: false
+
+two:
+  title: MyString
+  author: MyString
+  year: 1
+  available: false

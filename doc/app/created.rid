@@ -1,0 +1,8 @@
+Tue, 04 Nov 2014 10:12:19 -0600
+README.rdoc	Mon, 03 Nov 2014 13:00:57 -0600
+app/controllers/application_controller.rb	Mon, 03 Nov 2014 13:00:57 -0600
+app/controllers/library_controller.rb	Mon, 03 Nov 2014 17:38:51 -0600
+app/helpers/application_helper.rb	Mon, 03 Nov 2014 13:00:57 -0600
+app/models/book.rb	Mon, 03 Nov 2014 17:38:49 -0600
+app/models/checkout.rb	Mon, 03 Nov 2014 17:38:48 -0600
+app/models/patron.rb	Mon, 03 Nov 2014 17:38:47 -0600

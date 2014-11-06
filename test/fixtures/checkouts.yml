@@ -1,0 +1,13 @@
+one:
+  patron_id: 1
+  book_id: MyString
+  integer: MyString
+  checked_out_at: 2014-11-04 09:51:23
+  checked_in_at: 2014-11-04 09:51:23
+
+two:
+  patron_id: 1
+  book_id: MyString
+  integer: MyString
+  checked_out_at: 2014-11-04 09:51:23
+  checked_in_at: 2014-11-04 09:51:23
